@@ -21976,10 +21976,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-1.17" y1="-0.37" x2="-0.93" y2="-0.13" layer="31"/>
 <rectangle x1="-1.17" y1="0.13" x2="-0.93" y2="0.37" layer="31"/>
 <rectangle x1="-1.17" y1="0.63" x2="-0.93" y2="0.87" layer="31"/>
-<wire x1="0.75" y1="1.91" x2="1.39" y2="1.91" width="0.1" layer="21"/>
-<wire x1="1.39" y1="1.91" x2="1.39" y2="1.28" width="0.1" layer="21"/>
-<wire x1="-0.75" y1="-1.91" x2="-1.39" y2="-1.91" width="0.1" layer="21"/>
-<wire x1="-1.39" y1="-1.91" x2="-1.39" y2="-1.28" width="0.1" layer="21"/>
+<wire x1="0.75" y1="2" x2="1.48" y2="2" width="0.2" layer="21"/>
+<wire x1="1.48" y1="2" x2="1.48" y2="1.28" width="0.2" layer="21"/>
+<wire x1="-0.75" y1="-2" x2="-1.48" y2="-2" width="0.2" layer="21"/>
+<wire x1="-1.48" y1="-2" x2="-1.48" y2="-1.28" width="0.2" layer="21"/>
 <circle x="-1.02" y="2.26" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="AXIAL-0.4">
@@ -22057,7 +22057,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-"/>
+<attribute name="PROD_ID" value="IC-20090"/>
 <attribute name="VALUE" value="AS7331"/>
 </technology>
 </technologies>
@@ -22077,7 +22077,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PN" value="MFR-25FTE52-3M3"/>
-<attribute name="PROD_ID" value="RES-"/>
+<attribute name="PROD_ID" value="RES-20091"/>
 <attribute name="VALUE" value="3.3M"/>
 </technology>
 </technologies>
@@ -25581,8 +25581,8 @@ below table.</text>
 <instance part="GND4" gate="G$1" x="228.6" y="101.6" smashed="yes">
 <attribute name="VALUE" x="228.6" y="101.346" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="63.5" y="139.7" smashed="yes">
-<attribute name="VALUE" x="63.5" y="142.494" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="66.04" y="139.7" smashed="yes">
+<attribute name="VALUE" x="66.04" y="142.494" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="139.7" y="152.4" smashed="yes">
 <attribute name="VALUE" x="139.7" y="155.194" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -25880,17 +25880,6 @@ below table.</text>
 </net>
 <net name="VDDA" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="VDDA"/>
-<wire x1="63.5" y1="129.54" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="VDDA"/>
-<wire x1="63.5" y1="139.7" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
-<junction x="63.5" y="132.08"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY2" gate="G$1" pin="VDDA"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="152.4" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
@@ -25899,6 +25888,19 @@ below table.</text>
 <pinref part="SUPPLY3" gate="G$1" pin="VDDA"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="152.4" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="VDDA"/>
+<wire x1="63.5" y1="129.54" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+<junction x="63.5" y="132.08"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VDDA"/>
+<wire x1="66.04" y1="139.7" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+<junction x="66.04" y="132.08"/>
 </segment>
 </net>
 <net name="N$8" class="0">
