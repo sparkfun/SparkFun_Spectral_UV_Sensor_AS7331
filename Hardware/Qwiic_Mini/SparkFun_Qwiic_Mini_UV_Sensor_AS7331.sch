@@ -23661,50 +23661,50 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <wire x1="0.49" y1="0.3" x2="0.315" y2="0.49" width="0.05" layer="51" curve="90"/>
 <wire x1="0.315" y1="0.49" x2="-0.315" y2="0.49" width="0.05" layer="51"/>
 <wire x1="-0.315" y1="0.49" x2="-0.49" y2="0.3" width="0.05" layer="51" curve="90"/>
-<smd name="1" x="-0.75" y="1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-0.25" y="1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.25" y="1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.75" y="1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.75" y="1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.25" y="1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.25" y="1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.75" y="1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="5" x="1.05" y="0.75" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="6" x="1.05" y="0.25" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="7" x="1.05" y="-0.25" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="8" x="1.05" y="-0.75" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="9" x="0.75" y="-1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="10" x="0.25" y="-1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="11" x="-0.25" y="-1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="12" x="-0.75" y="-1.55" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="9" x="0.75" y="-1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="10" x="0.25" y="-1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="11" x="-0.25" y="-1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="12" x="-0.75" y="-1.575" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="13" x="-1.05" y="-0.75" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="14" x="-1.05" y="-0.25" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="15" x="-1.05" y="0.25" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="16" x="-1.05" y="0.75" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<rectangle x1="-0.95" y1="1.35" x2="-0.55" y2="1.75" layer="29"/>
-<rectangle x1="-0.45" y1="1.35" x2="-0.05" y2="1.75" layer="29"/>
-<rectangle x1="0.05" y1="1.35" x2="0.45" y2="1.75" layer="29"/>
-<rectangle x1="0.55" y1="1.35" x2="0.95" y2="1.75" layer="29"/>
+<rectangle x1="-0.95" y1="1.375" x2="-0.55" y2="1.775" layer="29"/>
+<rectangle x1="-0.45" y1="1.375" x2="-0.05" y2="1.775" layer="29"/>
+<rectangle x1="0.05" y1="1.375" x2="0.45" y2="1.775" layer="29"/>
+<rectangle x1="0.55" y1="1.375" x2="0.95" y2="1.775" layer="29"/>
 <rectangle x1="0.85" y1="0.55" x2="1.25" y2="0.95" layer="29"/>
 <rectangle x1="0.85" y1="0.05" x2="1.25" y2="0.45" layer="29"/>
 <rectangle x1="0.85" y1="-0.45" x2="1.25" y2="-0.05" layer="29"/>
 <rectangle x1="0.85" y1="-0.95" x2="1.25" y2="-0.55" layer="29"/>
-<rectangle x1="0.55" y1="-1.75" x2="0.95" y2="-1.35" layer="29"/>
-<rectangle x1="0.05" y1="-1.75" x2="0.45" y2="-1.35" layer="29"/>
-<rectangle x1="-0.45" y1="-1.75" x2="-0.05" y2="-1.35" layer="29"/>
-<rectangle x1="-0.95" y1="-1.75" x2="-0.55" y2="-1.35" layer="29"/>
+<rectangle x1="0.55" y1="-1.775" x2="0.95" y2="-1.375" layer="29"/>
+<rectangle x1="0.05" y1="-1.775" x2="0.45" y2="-1.375" layer="29"/>
+<rectangle x1="-0.45" y1="-1.775" x2="-0.05" y2="-1.375" layer="29"/>
+<rectangle x1="-0.95" y1="-1.775" x2="-0.55" y2="-1.375" layer="29"/>
 <rectangle x1="-1.25" y1="-0.95" x2="-0.85" y2="-0.55" layer="29"/>
 <rectangle x1="-1.25" y1="-0.45" x2="-0.85" y2="-0.05" layer="29"/>
 <rectangle x1="-1.25" y1="0.05" x2="-0.85" y2="0.45" layer="29"/>
 <rectangle x1="-1.25" y1="0.55" x2="-0.85" y2="0.95" layer="29"/>
-<rectangle x1="-0.87" y1="1.43" x2="-0.63" y2="1.67" layer="31"/>
-<rectangle x1="-0.37" y1="1.43" x2="-0.13" y2="1.67" layer="31"/>
-<rectangle x1="0.13" y1="1.43" x2="0.37" y2="1.67" layer="31"/>
-<rectangle x1="0.63" y1="1.43" x2="0.87" y2="1.67" layer="31"/>
+<rectangle x1="-0.87" y1="1.455" x2="-0.63" y2="1.695" layer="31"/>
+<rectangle x1="-0.37" y1="1.455" x2="-0.13" y2="1.695" layer="31"/>
+<rectangle x1="0.13" y1="1.455" x2="0.37" y2="1.695" layer="31"/>
+<rectangle x1="0.63" y1="1.455" x2="0.87" y2="1.695" layer="31"/>
 <rectangle x1="0.93" y1="0.63" x2="1.17" y2="0.87" layer="31"/>
 <rectangle x1="0.93" y1="0.13" x2="1.17" y2="0.37" layer="31"/>
 <rectangle x1="0.93" y1="-0.37" x2="1.17" y2="-0.13" layer="31"/>
 <rectangle x1="0.93" y1="-0.87" x2="1.17" y2="-0.63" layer="31"/>
-<rectangle x1="0.63" y1="-1.67" x2="0.87" y2="-1.43" layer="31"/>
-<rectangle x1="0.13" y1="-1.67" x2="0.37" y2="-1.43" layer="31"/>
-<rectangle x1="-0.37" y1="-1.67" x2="-0.13" y2="-1.43" layer="31"/>
-<rectangle x1="-0.87" y1="-1.67" x2="-0.63" y2="-1.43" layer="31"/>
+<rectangle x1="0.63" y1="-1.695" x2="0.87" y2="-1.455" layer="31"/>
+<rectangle x1="0.13" y1="-1.695" x2="0.37" y2="-1.455" layer="31"/>
+<rectangle x1="-0.37" y1="-1.695" x2="-0.13" y2="-1.455" layer="31"/>
+<rectangle x1="-0.87" y1="-1.695" x2="-0.63" y2="-1.455" layer="31"/>
 <rectangle x1="-1.17" y1="-0.87" x2="-0.93" y2="-0.63" layer="31"/>
 <rectangle x1="-1.17" y1="-0.37" x2="-0.93" y2="-0.13" layer="31"/>
 <rectangle x1="-1.17" y1="0.13" x2="-0.93" y2="0.37" layer="31"/>
@@ -23715,21 +23715,22 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <wire x1="-1.48" y1="-2" x2="-1.48" y2="-1.28" width="0.2" layer="21"/>
 <circle x="-1.02" y="2.26" radius="0.3" width="0" layer="21"/>
 </package>
-<package name="AXIAL-0.4">
-<description>&lt;h3&gt;AXIAL-0.4&lt;/h3&gt;
-&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.4" pitch between holes.&lt;/p&gt;</description>
-<wire x1="-3.15" y1="1.2" x2="3.15" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="1.2" x2="3.15" y2="0" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="0" x2="3.15" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-1.2" x2="-3.15" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-1.2" x2="-3.15" y2="0" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="0" x2="-3.15" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="0" x2="4" y2="0" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="0" x2="-4" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-5.08" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="1.8796"/>
-<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -23802,15 +23803,15 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="AXIAL-0.4">
+<device name="" package="1206">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PN" value="MFR-25FTE52-3M3"/>
-<attribute name="PROD_ID" value="RES-20091"/>
+<attribute name="PN" value="MCA1206MD3304BP500"/>
+<attribute name="PROD_ID" value="RES-20093"/>
 <attribute name="VALUE" value="3.3M"/>
 </technology>
 </technologies>
@@ -25980,39 +25981,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7KOHM" prefix="R">
-<description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07857"/>
-<attribute name="VALUE" value="4.7k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-1/16W-1%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-15343" constant="no"/>
-<attribute name="VALUE" value="4.7k" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="10OHM" prefix="R">
 <description>&lt;h3&gt;10Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -27102,7 +27070,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
 <attribute name="DESIGNER" value="Alex Brudner"/>
-<attribute name="REV" value="v01"/>
+<attribute name="REV" value="v10"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Qwiic Vert"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Qwiic Vert"/>
@@ -27122,8 +27090,8 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
-<part name="ADDR0" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
-<part name="ADDR1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
+<part name="A0" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
+<part name="A1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402-1/10W-0.1%" value="10K"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402-1/10W-0.1%" value="10K"/>
@@ -27135,8 +27103,8 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="DGND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="DGND" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="DGND" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="_0402" value="RED"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
@@ -27165,12 +27133,12 @@ Standard 0402 sized pads with cathode pin indicator.
 <wire x1="208.28" y1="66.04" x2="208.28" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="218.44" y="88.9" size="1.778" layer="97" font="vector">Cut PWR trace to
 disable power LED.</text>
-<text x="157.48" y="119.38" size="1.778" layer="97" font="vector">Cut and solder ADDR 
+<text x="157.48" y="119.38" size="1.778" layer="97" font="vector">Cut and solder A0/A1 
 pins to change I2C 
 address based on the 
 below table.</text>
-<text x="172.72" y="91.44" size="1.778" layer="97" font="vector" align="bottom-center">ADDR0</text>
-<text x="160.02" y="91.44" size="1.778" layer="97" font="vector" align="bottom-center">ADDR1</text>
+<text x="172.72" y="91.44" size="1.778" layer="97" font="vector" align="bottom-center">A0</text>
+<text x="160.02" y="91.44" size="1.778" layer="97" font="vector" align="bottom-center">A1</text>
 <text x="190.5" y="91.44" size="1.778" layer="97" font="vector" align="bottom-center">7-bit Address</text>
 <text x="172.72" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">GND</text>
 <text x="160.02" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">GND</text>
@@ -27209,6 +27177,11 @@ below table.</text>
 <text x="71.12" y="55.88" size="2.54" layer="94" font="vector" align="bottom-center">Connectors</text>
 <text x="104.14" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">UV A/B/C Sensor</text>
 <text x="228.6" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">Power LED</text>
+<text x="129.54" y="162.56" size="1.778" layer="97" font="vector">Cut I2C jumper 
+to remove pull-ups 
+from the I2C lines</text>
+<text x="96.52" y="147.32" size="1.778" layer="97" font="vector" align="bottom-center">Voltage Range: 
+2.7-3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -27261,10 +27234,10 @@ below table.</text>
 <attribute name="NAME" x="65.024" y="127.381" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="65.024" y="122.301" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="ADDR0" gate="G$1" x="139.7" y="121.92" smashed="yes">
+<instance part="A0" gate="G$1" x="139.7" y="121.92" smashed="yes">
 <attribute name="NAME" x="142.24" y="121.92" size="1.778" layer="95" font="vector" align="center-left"/>
 </instance>
-<instance part="ADDR1" gate="G$1" x="152.4" y="111.76" smashed="yes">
+<instance part="A1" gate="G$1" x="152.4" y="111.76" smashed="yes">
 <attribute name="NAME" x="154.94" y="111.76" size="1.778" layer="95" font="vector" align="center-left"/>
 </instance>
 <instance part="I2C" gate="G$1" x="119.38" y="152.4" smashed="yes" rot="R270">
@@ -27304,7 +27277,7 @@ below table.</text>
 </instance>
 <instance part="D1" gate="G$1" x="228.6" y="111.76" smashed="yes">
 <attribute name="NAME" x="231.648" y="112.649" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="230.505" y="107.188" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="VALUE" x="231.648" y="109.855" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="R5" gate="G$1" x="228.6" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="227.076" y="121.92" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -27432,11 +27405,11 @@ below table.</text>
 <net name="A0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="A0"/>
-<pinref part="ADDR0" gate="G$1" pin="2"/>
+<pinref part="A0" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SYNC" class="0">
+<net name="!SYNC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SYN"/>
 <wire x1="111.76" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
@@ -27451,7 +27424,7 @@ below table.</text>
 <net name="A1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="A1"/>
-<pinref part="ADDR1" gate="G$1" pin="2"/>
+<pinref part="A1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27473,14 +27446,14 @@ below table.</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="ADDR0" gate="G$1" pin="1"/>
+<pinref part="A0" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="127" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="ADDR1" gate="G$1" pin="1"/>
+<pinref part="A1" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="116.84" x2="152.4" y2="139.7" width="0.1524" layer="91"/>
 </segment>
@@ -27507,12 +27480,12 @@ below table.</text>
 <wire x1="104.14" y1="93.98" x2="104.14" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ADDR1" gate="G$1" pin="3"/>
+<pinref part="A1" gate="G$1" pin="3"/>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
 <wire x1="152.4" y1="106.68" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ADDR0" gate="G$1" pin="3"/>
+<pinref part="A0" gate="G$1" pin="3"/>
 <pinref part="U$2" gate="G$1" pin="AGND"/>
 <wire x1="139.7" y1="116.84" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
 </segment>
