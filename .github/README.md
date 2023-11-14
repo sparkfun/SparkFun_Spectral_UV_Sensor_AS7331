@@ -2,12 +2,6 @@ SparkFun Spectral UV Sensor - AS7331 (Qwiic)
 ========================================
 
 <table class="table table-hover table-striped table-bordered">
-    <tr>
-        <th class="text-center">
-        </th>
-        <th class="text-center">
-        </th>
-    </tr>
     <tr align="center">
         <td><a href="https://www.sparkfun.com/products/23517"><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/8/0/8/23517-Spectral-UV-Sensor_Feature.jpg" alt="Standard"></a></td>
         <td><a href="https://www.sparkfun.com/products/23518"><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/8/0/9/23518-Spectral-UV-Sensor-Mini_Feature.jpg" alt="Mini"></a></td>
