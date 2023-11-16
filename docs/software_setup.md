@@ -2,7 +2,7 @@
 icon: simple/arduino
 ---
 
-## SparkFun AS7331 Arduino Library
+## Arduino IDE
 
 Most users may already be familiar with the Arduino IDE and its use. However, for those of you who have never heard the name *Arduino* before, feel free to check out the [Arduino website](https://www.arduino.cc/en/Guide/HomePage). To get started with using the Arduino IDE, check out our tutorials below:
 
@@ -45,16 +45,10 @@ Most users may already be familiar with the Arduino IDE and its use. However, fo
 
 </div>
 
+## SparkFun AS7331 Arduino Library
 
+We've written an Arduino library for users to quickly get started with and customize the Spectral UV Sensor Breakouts. Install the library through the Arduino Library Manager tool by searching for "SparkFun AS7331". If you prefer to manually install the library, download a .ZIP of it from the [GitHub Repository](https://github.com/sparkfun/SparkFun_AS7331_Arduino_Library) by clicking the button below:
 
 <center>
-[SparkFun Arduino Library Name (ZIP)](SparkFun Arduino Library ZIP link){ .md-button .md-button--primary }
+[SparkFun AS7331 Arduino Library (ZIP)](https://github.com/sparkfun/SparkFun_AS7331_Arduino_Library/archive/refs/heads/main.zip){ .md-button .md-button--primary }
 </center>
-
-??? tip "Arduino IDE *(v1.x.x)*"
-	In the Arduino IDE v1.x.x, the library manager will have the following appearance for the <Product Name> Arduino Library:
-
-	<figure markdown>
-	[![](../assets/img/arduino_library-legacy.png "Click to enlarge"){ width="400" }](../assets/img/arduino_library-legacy.png)
-	<figcaption markdown><Product Name> Arduino Library in the library manager of the Arduino IDE (v1.x.x).</figcaption>
-	</figure>

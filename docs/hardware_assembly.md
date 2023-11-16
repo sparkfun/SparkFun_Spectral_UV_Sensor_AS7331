@@ -6,18 +6,23 @@ icon: material/tools
 
 Assembling these breakouts into a Qwiic circuit is as simple as plugging the board into your chosen microcontroller with a Qwiic cable. After assembling your circuit, it should look similar to the photos below:
 
+<div class="grid" markdown>
 
+<div markdown>
+<figure markdown>
+[![Standard board Qwiic assembly](./assets/img/Spectral_UV_Sensor-Assembly4x6.jpg){ width="400" }](./assets/img/Spectral_UV_Sensor-Assembly4x6.jpg "Click to enlarge")
+</figure>
+</div>
+
+<div markdown>
+<figure markdown>
+[![Mini board Qwiic assembly](./assets/img/Spectral_UV_Sensor_Mini-Assembly4x6.jpg){ width="400" }](./assets/img/Spectral_UV_Sensor_Mini-Assembly4x6.jpg "Click to enlarge")
+</figure>
+</div>
+
+</div>
 
 ## Soldered Assembly
-
-<div class="grid cards" markdown>
--   <a href="https://learn.sparkfun.com/tutorials/5">
-    <figure markdown>
-    ![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg)
-    <figcaption markdown>How to Solder: Through-Hole Soldering</figcaption>
-    </figure>
-    </a>
-</div>
 
 Users who prefer a soldered connection or wish to use the SYNC and READY/INT pins should solder to the board for permanent connections.
 

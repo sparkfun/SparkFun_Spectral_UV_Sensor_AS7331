@@ -2,11 +2,6 @@
 icon: material/book-open-page-variant
 ---
 
-# Hookup Guide
-
-
-## Introduction
-
 The SparkFun Spectral UV Sensor - AS7331 (Qwiic) and Mini Spectral UV Sensor - AS7331 (Qwiic) feature the AS7331 UV sensor from ams OSRAM<sup>&copy;</sup> which measures UV radiation on three channels: UVA (320-400nm), UVB (280-320nm), and UVC (200-280nm). Each channel on the AS7331 has an individual photodiode with built-in interference filters to ensure high sensitivity and accuracy across all three channels. The AS7331 communicates over I<sup>2</sup>C so naturally we put it on a standard (1"x1") and Mini (1"x0.5") Qwiic breakouts to integrate into our [Qwiic Connect System](https://www.sparkfun.com/qwiic).
 
 <section class="grid cards col-2"markdown>
@@ -18,7 +13,7 @@ The SparkFun Spectral UV Sensor - AS7331 (Qwiic) and Mini Spectral UV Sensor - A
 	---
 
 	<figure markdown>
-	![Product Thumbnail](<Product Image Link>)
+	![https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/8/0/8/23517-Spectral-UV-Sensor_Feature.jpg](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/8/0/8/23517-Spectral-UV-Sensor_Feature.jpg)
 	</figure>
 	</a>
 
@@ -27,13 +22,13 @@ The SparkFun Spectral UV Sensor - AS7331 (Qwiic) and Mini Spectral UV Sensor - A
     </center>
 
 -	<a href="https://www.sparkfun.com/products/23518">
-	**SparkFun Mini Spectral UV Sensor - AS7331 (Qwiic) **<br>
+	**SparkFun Mini Spectral UV Sensor - AS7331 (Qwiic)**<br>
 	**SKU:** SEN-23518
 
 	---
 
 	<figure markdown>
-	![Product Thumbnail](<Product Image Link>)
+	![https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/8/0/9/23518-Spectral-UV-Sensor-Mini_Feature.jpg](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/8/0/9/23518-Spectral-UV-Sensor-Mini_Feature.jpg)
 	</figure></a>
 
 	<center>
@@ -42,8 +37,11 @@ The SparkFun Spectral UV Sensor - AS7331 (Qwiic) and Mini Spectral UV Sensor - A
 
 </section>
 
+This guide goes over the AS7331 UV sensor and other hardware on these Qwiic breakouts, how to assemble them into a circuit and how to use them with the SparkFun AS7331 Arduino library.
 
 ## Required Materials
+
+In order to follow along with this guide, you'll need the following materials. You'll need a microcontroller to connect the breakouts to. The development boards listed below come with Qwiic connectors for easy connection using the Qwiic system:
 
 <div class="grid cards" markdown>
 
@@ -263,7 +261,7 @@ We designed this board for integration into SparkFun's Qwiic connect system.  Cl
 <table>
   <tr>
    <td>
-   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="../assets/images/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
+   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="./assets/img/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
    </td>
   </tr>
   <tr>

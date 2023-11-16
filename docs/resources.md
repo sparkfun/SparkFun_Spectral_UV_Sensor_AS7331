@@ -1,14 +1,14 @@
-# Resources
-<!-- This section should include all the relevant documentation and product files (Eagle files, schematic, datasheet(s), landing pages, etc. and any relevant tutorials to go beyond the Hookup Guide.) -->
+For more information about the Spectral UV Sensor - Qwiic, check out the following resources listed below: 
 
-For more resources related to the <Product Name>, check out the links listed here: 
-
-* [Product Page](https://www.sparkfun.com/products/<SKU Number>)
-* [Schematic](./board_files/schematic.pdf) (PDF)
-* [Eagle Files](./board_files/eagle_files.zip) (ZIP)
-* [Board Dimensions](./board_files/dimensions.pdf) (PDF)
-* [Graphical Datasheet](./board_files/graphical_datasheet.pdf) (PDF)
-* [<Product Name> Datasheet](./component_documentation/<Product Name>.pdf) (PDF)
-* [<Product Name> Arduino Library](https://github.com/sparkfun/<Arduino Library Name>) *(if applicable)*
-* [Hardware GitHub Respository](https://github.com/sparkfun/<SparkFun_Spectral_UV_Sensor_AS7331>)
-* [SFE Product Showcase](<Video Webpage>)
+* Schematic:
+    * [Standard](./assets/board_files/SparkFun_Qwiic_UV_Sensor_AS7331.pdf)
+    * [Mini](./assets/board_files/SparkFun_Qwiic_Mini_UV_Sensor_AS7331-Dimensions.png)
+* Eagle Files:
+    * [Standard](./assets/board_files/SparkFun_Qwiic_UV_Sensor_AS7331.zip)
+    * [Mini](./assets/board_files/SparkFun_Qwiic_Mini_UV_Sensor_AS7331.zip)
+* Board Dimensions:
+    * [Standard](./assets/board_files/SparkFun_Qwiic_UV_Sensor_AS7331-Dimensions.png)
+    * [Mini](./assets/board_files/SparkFun_Qwiic_Mini_UV_Sensor_AS7331-Dimensions.png)
+* [Datasheet](./assets/component_documentation/AS7331_DS001047_4-00.pdf) (AS7311)
+* [SparkFun AS7331 Arduino Library](https://github.com/sparkfun/SparkFun_AS7331_Arduino_Library)
+* [Hardware GitHub Respository](https://github.com/sparkfun/SparkFun_Spectral_UV_Sensor_AS7331)
