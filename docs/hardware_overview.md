@@ -4,7 +4,7 @@ icon: material/cog
 
 ## AS7331 Spectral UV Sensor
 
-The AS7331 spectral UV sensor from ams measures UV radiation over three channels (UVA, UVB, and UVC). Each channel is isolated from the other and includes their own photodiode with a built-in filter to help with accuracy and interference from other channels.
+The AS7331 spectral UV sensor from ams measures UV radiation over three channels (UVA, UVB, and UVC). Each channel is isolated from the other and has its own photodiode with a built-in filter to help with accuracy and interference from other channels.
 
 <div class="grid" markdown>
 
@@ -22,12 +22,12 @@ The AS7331 spectral UV sensor from ams measures UV radiation over three channels
 
 </div>
 
-The AS7331 has extensive configuration options to customize the sensor's responsiveness, sensitivity through adjusting the gain, clock speed, and conversion time, among others. These configuration options allow users to optimize the sensor for their application. For example, a high gain setting results in a more sensitive response from the sensor but a lower max detectable irradiance (in &micro;W/cm<sup>2</sup>) where a low gain has much less sensitivity but a much higher maximum detectable irradiance. For detailed information on the conversion equations and how all the available settings affect performance, refer to section 7.4 of the [datasheet](./assets/component_documentation/AS7331_DS001047_4-00.pdf) Note, these configurations apply across all three channels. It has four operating modes: Command (CMD), Continuous (CONT), Synchronized Start (SYNS), and Syncrhonized Start/End (SYND). The list below outlines the operating modes behaviors: 
+The AS7331 has extensive configuration options to customize the sensor's responsiveness, sensitivity, clock speed, and conversion time, among other settings. These configuration options allow users to optimize the sensor for their application. For example, a high gain setting results in a more sensitive response from the sensor but a lower maximum detectable irradiance (in &micro;W/cm<sup>2</sup>) whereas a low gain has much less sensitivity but a much higher maximum detectable irradiance. For detailed information on the conversion equations and how all the available settings affect performance, refer to section 7.4 of the [datasheet](./assets/component_documentation/AS7331_DS001047_4-00.pdf) Note, these configurations apply across all three channels. It has four operating modes: Command (CMD), Continuous (CONT), Synchronized Start (SYNS), and Synchronized Start/End (SYND). The list below outlines the operating modes' behaviors: 
 
-* CMD Mode - Single measurement and conversion controlled by the I<sup>2</sup>C interface.
-* CONT Mode - Continuous measurements and conversion on set intervals. 
-* SYNS Mode - Synchronized start of measurements through the SYN pin.
-* SYND Mode - Synchronized start and stop of measurements through the SYN pin.
+* CMD Mode - "One-shot" mode. Takes a single measurement and conversion controlled by the I<sup>2</sup>C interface.
+* CONT Mode - Continous mode. Takes continuous measurements and conversions on set intervals. 
+* SYNS Mode - Synchronized start mode. A connected microcontroller starts measurements through an I/O pin connected to the SYN pin.
+* SYND Mode - Synchronized start and stop mode. A connected microcontroller starts and stops measurements through an I/O pin connected to the SYN pin.
 
  The sensor operates over I<sup>2</sup>C with a pin-configured I<sup>2</sup>C address supporting four separate addresses (the breakout board sets this to 0x74 by default). Refer to the [datasheet](./assets/component_documentation/AS7331_DS001047_4-00.pdf) for a complete overview of the AS7331.
 
@@ -88,7 +88,7 @@ These breakouts only have a red Power LED to indicate whenever the board is powe
         How to Work with Jumper Pads and PCB Traces</a>
 	</p>
 
-The boards have three solder jumpers labeled <b>PWR</b>, <b>A0</b>, and <b>A1</b>. The PWR jumper completes the power LED circuit. Open it to disable the Power LED to help reduce boards' current consumption. The A0 and A1 solder jumpers control the AS7331's I<sup>2</sup>C address. They default to tie both address pins to Ground to set the I<sup>2</sup>C address to <b>0x74</b>. The table below outlines the jumper positions for the four available I<sup>2</sup>C addresses:
+The boards have three solder jumpers labeled <b>PWR</b>, <b>A0</b>, and <b>A1</b>. The PWR jumper completes the power LED circuit. Open it to disable the Power LED to help reduce the current consumption. The A0 and A1 solder jumpers control the AS7331's I<sup>2</sup>C address. They default to tie both address pins to Ground to set the I<sup>2</sup>C address to <b>0x74</b>. The table below outlines the jumper positions for the four available I<sup>2</sup>C addresses:
 
 <div class="grid" markdown>
 
@@ -106,6 +106,7 @@ The boards have three solder jumpers labeled <b>PWR</b>, <b>A0</b>, and <b>A1</b
 
 </div>
 
+<center>
 <table>
 	<tr>
 		<th>A1</th>
@@ -133,7 +134,7 @@ The boards have three solder jumpers labeled <b>PWR</b>, <b>A0</b>, and <b>A1</b
 		<td>0x77</td>
 	</tr>
 </table>
-
+</center>
 ## Board Dimensions
 
 The Standard version of the Spectral UV Sensor measures 1.00" x 1.00" (25.4mm x 25.4mm) and the Mini version measures 1.00" x 0.50" (25.4mm x 12.7mm). The Standard has four mounting holes and the Mini has two mounting holes. All of these fit a [4-40 screw]().

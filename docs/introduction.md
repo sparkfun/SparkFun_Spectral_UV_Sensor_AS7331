@@ -2,7 +2,7 @@
 icon: material/book-open-page-variant
 ---
 
-The SparkFun Spectral UV Sensor - AS7331 (Qwiic) and Mini Spectral UV Sensor - AS7331 (Qwiic) feature the AS7331 UV sensor from ams OSRAM<sup>&copy;</sup> which measures UV radiation on three channels: UVA (320-400nm), UVB (280-320nm), and UVC (200-280nm). Each channel on the AS7331 has an individual photodiode with built-in interference filters to ensure high sensitivity and accuracy across all three channels. The AS7331 communicates over I<sup>2</sup>C so naturally we put it on a standard (1"x1") and Mini (1"x0.5") Qwiic breakouts to integrate into our [Qwiic Connect System](https://www.sparkfun.com/qwiic).
+The SparkFun Spectral UV Sensor - AS7331 (Qwiic) and Mini Spectral UV Sensor - AS7331 (Qwiic) feature the AS7331 UV sensor from ams OSRAM<sup>&copy;</sup> which measures UV radiation on three channels: UVA (320-400nm), UVB (280-320nm), and UVC (200-280nm). Each channel on the AS7331 has an individual photodiode with built-in interference filters to ensure high sensitivity and accuracy across all three channels. The AS7331 communicates over I<sup>2</sup>C so naturally we put it on Standard (1"x1") and Mini (1"x0.5") Qwiic breakouts to integrate into our [Qwiic Connect System](https://www.sparkfun.com/qwiic).
 
 <section class="grid cards col-2"markdown>
 
@@ -261,7 +261,7 @@ We designed this board for integration into SparkFun's Qwiic connect system.  Cl
 <table>
   <tr>
    <td>
-   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="./assets/img/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
+   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="./assets/img/Qwiic-registered-updated.png" alt= "Qwiic Connect System" title= "Click to learn more about the Qwiic Connect System!"></a></div>
    </td>
   </tr>
   <tr>
