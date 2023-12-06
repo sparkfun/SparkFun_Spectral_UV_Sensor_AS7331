@@ -154,7 +154,7 @@ plugins:
       type: timeago
   # Add git committers at the bottom of the page
   - git-committers:
-      repository: sparkfun/<SparkFun_Spectral_UV_Sensor_AS7331>
+      repository: sparkfun/SparkFun_Spectral_UV_Sensor_AS7331
       branch: main
   # Add git authors at the bottom of the page
   - git-authors
@@ -219,7 +219,7 @@ extra:
   # Configures social icons in the footer
   social:
     - icon: sfe-logo # simple/sparkfun
-      link: https://www.sparkfun.com/products/<SKU Number>
+      link: https://www.sparkfun.com/products/23517
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/sparkfun
     - icon: fontawesome/brands/instagram
